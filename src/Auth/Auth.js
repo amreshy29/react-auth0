@@ -5,8 +5,8 @@ export default class Auth {
     this.auth0 = new auth0.WebAuth({
       // the following three lines MUST be updated
       domain: 'githubamy.auth0.com',
-      audience: 'https://githubamy.auth0.com/userinfo',
-      clientID: 'IsDO1PwMc3QF7MBd3yJU8NTSxupjet2E',
+      audience: 'https://***.auth0.com/userinfo',
+      clientID: '***',
       redirectUri: 'http://localhost:3000/callback',
       responseType: 'token id_token',
       scope: 'openid profile'
